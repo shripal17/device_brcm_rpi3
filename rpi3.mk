@@ -45,13 +45,15 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:system/etc/default_volume_tables.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
 
-# Graphics and Wifi
+# Graphics
 PRODUCT_PACKAGES += \
     libGLES_mesa \
     gralloc.rpi3 \
     hwcomposer.rpi3 \
-    audio.primary.rpi3 \
-    audio.usb.default \
+
+# Wifi
+PRODUCT_PACKAGES += \
+    hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
 
