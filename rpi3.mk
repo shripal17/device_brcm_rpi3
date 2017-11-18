@@ -51,6 +51,13 @@ PRODUCT_PACKAGES += \
     gralloc.rpi3 \
     hwcomposer.rpi3 \
 
+# I2C
+PRODUCT_PACKAGES += \
+    i2cdetect \
+    i2cdump \
+    i2cget \
+    i2cset
+
 # Wifi
 PRODUCT_PACKAGES += \
     hostapd \
