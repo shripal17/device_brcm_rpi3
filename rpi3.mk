@@ -77,9 +77,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
-    wificond \
-    wpa_supplicant \
-    wpa_supplicant.conf
+    wificond
 
 # hardware/interfaces
 PRODUCT_PACKAGES += \
@@ -94,7 +92,7 @@ PRODUCT_PACKAGES += \
 
 # system configurations
 PRODUCT_COPY_FILES := \
-    hardware/broadcom/wlan/bcmdhd/config/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    wpa_supplicant
     frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
