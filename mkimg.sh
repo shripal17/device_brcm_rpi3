@@ -65,6 +65,9 @@ else
 	cp ../../../kernel/rpi/arch/arm/boot/dts/bcm2710-rpi-cm3.dtb sdcard/boot
 	mkdir -p sdcard/boot/overlays
 	cp ../../../kernel/rpi/arch/arm/boot/dts/overlays/*.dtbo sdcard/boot/overlays
+	cp ../../../vendor/brcm/rpi3/proprietary/boot/* sdcard/boot
+	cp ../../../out/target/product/rpi3/obj/KERNEL_OBJ/arch/arm/boot/zImage sdcard/boot
+	cp -R ../../../out/target/product/rpi3/obj/KERNEL_OBJ/arch/arm/boot/dts/* sdcard/boot
 	cp ../../../out/target/product/rpi3/ramdisk.img sdcard/boot
 	sync
 	umount /dev/mapper/loop0p1
