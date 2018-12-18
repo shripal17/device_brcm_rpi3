@@ -29,7 +29,6 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a53
 
 # Kernel
-<<<<<<< HEAD
 TARGET_KERNEL_CONFIG := lineageos_bcmrpi_defconfig
 TARGET_KERNEL_SOURCE := kernel/rpi
 BOARD_KERNEL_IMAGE_NAME := zImage
