@@ -71,7 +71,6 @@ PRODUCT_PACKAGES += \
 
 # Graphics
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     libGLES_mesa \
     gralloc.rpi3 \
     hwcomposer.rpi3 \
@@ -132,7 +131,7 @@ PRODUCT_PACKAGES += \
 
 # system configurations
 PRODUCT_COPY_FILES := \
-    wpa_supplicant
+    wpa_supplicant \
     frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
