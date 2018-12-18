@@ -138,10 +138,10 @@ PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
     $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml \
-    $(LOCAL_PATH)/rpi3_core_hardware.xml:system/etc/permissions/rpi3_core_hardware.xml \
-    $(LOCAL_PATH)/init.rpi3.rc:root/init.rpi3.rc \
-    $(LOCAL_PATH)/ueventd.rpi3.rc:root/ueventd.rpi3.rc \
-    $(LOCAL_PATH)/fstab.rpi3:root/fstab.rpi3 \
+    #$(LOCAL_PATH)/rpi3_core_hardware.xml:system/etc/permissions/rpi3_core_hardware.xml \
+    #$(LOCAL_PATH)/init.rpi3.rc:root/init.rpi3.rc \
+    #$(LOCAL_PATH)/ueventd.rpi3.rc:root/ueventd.rpi3.rc \
+    #$(LOCAL_PATH)/fstab.rpi3:root/fstab.rpi3 \
     $(LOCAL_PATH)/Generic.kl:system/usr/keylayout/Generic.kl \
     $(LOCAL_PATH)/firmware/brcm/brcmfmac43430-sdio.bin:root/lib/firmware/brcm/brcmfmac43430-sdio.bin \
     $(LOCAL_PATH)/firmware/brcm/brcmfmac43430-sdio.txt:root/lib/firmware/brcm/brcmfmac43430-sdio.txt \
